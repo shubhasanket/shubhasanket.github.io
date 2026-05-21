@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-04-24
+date: 2024-09-01
 inline: true
 related_posts: false
 ---
 
-Started a remote research internship at Carnegie Mellon University
+Started the M1 in Applied Mathematics at ENSIMAG / Université Grenoble Alpes, supported by the Graduate School@UGA Excellence Scholarship.

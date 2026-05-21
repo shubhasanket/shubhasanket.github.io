@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-09-09
+date: 2026-01-15
 inline: true
 related_posts: false
 ---
 
-Started a Master's in Applied Mathematics at Université Paris Cité
+Awarded the DataIA International Mobility Scholarship for my upcoming M2 MVA research internship at CAMLab, SAM, D-Math, ETH Zürich.

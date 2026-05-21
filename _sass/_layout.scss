@@ -52,19 +52,19 @@ body.sticky-bottom-footer {
 
 // TODO: redefine projects layout.
 
-// ClustrMaps Widget
+// ClustrMaps Widget — kept hidden on the page; visits are still tracked
+// and viewable on your ClustrMaps dashboard at https://clustrmaps.com
 #clustrmaps-widget {
   text-align: center;
-  
+
   iframe, object, embed {
     max-width: 100% !important;
     height: 10px !important;
   }
 
-  
   // Ensure the widget container doesn't interfere with interactions
   pointer-events: auto;
-  
+
   // Center the widget
   display: flex;
   justify-content: center;

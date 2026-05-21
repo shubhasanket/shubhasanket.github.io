@@ -4,7 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: CV_.pdf
+# TODO: place your latest CV PDF at assets/pdf/CV.pdf (or change the filename below)
+cv_pdf: CV.pdf
 description: 
 toc:
   sidebar: left

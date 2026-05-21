@@ -2,96 +2,144 @@
   type: map
   contents:
     - name: Full Name
-      value: Vibhu Dalal
-    - name: Date of Birth
-      value: 4th August 2002
+      value: Shubha Sanket Samantaray
     - name: Languages
-      value: English, French, Hindi
+      value: English, French, Odia, Sanskrit, Hindi, Tamil
+    - name: Location
+      value: Paris, France
 
 - title: Education
   type: time_table
   contents:
-    - title: Master's
-      institution: Université Paris Cité, Paris, France
-      year: 1905
+    - title: M.Sc. — M2 Mathématiques, Vision, Apprentissage (MVA)
+      institution: ENS Paris-Saclay / Université Paris-Saclay, Paris, France
+      year: 2025 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Coursework: Deep Learning, Machine Learning for Time Series, Optimal Transport, Extreme Value Theory, Computational Statistics, Stochastic Calculus, Reinforcement Learning, Natural Language Processing, Large Language Models."
+    - title: M.Sc. — M1 Applied Mathematics
+      institution: ENSIMAG / Université Grenoble Alpes, Grenoble, France
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Rank&#58; 1 / 22.
+        - "Coursework: Probability and Statistics, PDE and Numerical Methods, Software Design in C++, Optimisation, Signal and Image Processing, Big Data and HPC, Mathematical Modelling, Statistical Learning."
+    - title: B.Sc. in Mathematics and Physics
+      institution: Sri Aurobindo International Centre of Education, Puducherry, India
+      year: 2020 - 2023
+      description:
+        - "Coursework: Mathematics, Physics, Mathematical Statistics, Statistical Learning, Economics, Indian Philosophy."
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Computational and Applied Mathematics Lab (CAMLab), SAM, D-Math, ETH Zürich, Switzerland
+      year: Apr 2026 - Sep 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working on the development of diffusion-based certificates of trust for AI prediction models.
+    - title: Research Intern
+      institution: AIRSEA team, Laboratoire Jean Kuntzmann (CNRS), Grenoble, France
+      year: May 2025 - Jul 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Worked on statistical inference methods to calibrate the diffusion term in stochastic differential equations.
+        - Developed and validated parametric SDE models to approximate complex dynamical systems, analyzing trade-offs between model stability and accuracy.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Feynman-Kac Based PDE Solver using Machine Learning
+      year: Feb 2025 - May 2025
+      description:
+        - Developed a neural network-based PDE solver using the Feynman–Kac formula; applied it to the Black–Scholes equation for pricing European options.
+        - Conducted a systematic performance comparison with classical methods such as Finite Difference and Monte Carlo approaches, evaluating both accuracy and computational efficiency.
+    - title: Auto-Encoder with Regression for Time Series Anomaly Detection
+      year: Oct 2025 - Jan 2026
+      description:
+        - Implemented the Auto-Encoder with Regression framework for time series anomaly detection in PyTorch.
+        - Extended post-processing with alternative thresholding strategies and ensured compatibility with recent Python versions, unlike the TensorFlow-based orion-ml reference.
+    - title: Deep Learning-Based Volatility Forecasting
+      year: Nov 2025 - Jan 2026
+      description:
+        - Implemented deep learning volatility forecasters using realized volatility, daily returns and other parameters.
+        - Built a symbol-aware time-series pipeline on the Oxford–Man Realized Volatility dataset and evaluated models using MSE, QLIKE, and directional accuracy.
+    - title: Fitting a Stochastic Differential Equation to the Lorenz Trajectory
+      year: May 2025 - Jul 2025
+      description:
+        - Developed stochastic differential equation (SDE) models to approximate the dynamics of the Lorenz system.
+        - Validated model performance by analyzing the trade-off between complexity, stability, and fidelity of the reproduced dynamics.
 
-- title: Honors and Awards
+- title: Honours and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - DataIA International Mobility Scholarship — DataIA Institute & Université Paris-Saclay (for the M2 MVA research internship at CAMLab, SAM, D-Math, ETH Zürich).
+    - year: 2025
       items:
-        - Max Planck Medal
+        - France Excellence Charpak Master Scholarship — French Government & French Embassy in India (merit scholarship covering tuition fees and living expenses for the M2).
+    - year: 2024
+      items:
+        - Graduate School@UGA Excellence Scholarship — Université Grenoble Alpes (merit scholarship covering tuition fees and living expenses for the M1).
+        - Selected for IIT Madras' graduate program (1 of 36 students), after qualifying the All-India entrance exam and clearing the technical interview.
+    - year: 2023
+      items:
+        - Best Student Prize — Sri Aurobindo International Centre of Education.
+        - Prize for Academic Excellence — Sri Aurobindo International Centre of Education (also awarded in 2021 and 2022).
+
+- title: Certificates
+  type: time_table
+  contents:
+    - title: GRE General Test
+      year: Nov 2023
+      description:
+        - Score&#58; 324 / 340 — Quantitative Reasoning&#58; 170 / 170 — Verbal Reasoning&#58; 154 / 170.
+    - title: IELTS Academic Test
+      year: Nov 2023
+      description:
+        - Overall Band Score&#58; 8 / 9.
+    - title: Game Theory — Stanford University
+      year: Nov 2023
+    - title: DELF B2 — French Certification
+      year: Jan 2024
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Applied Mathematics and Machine Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Deep Learning and Large Language Models.
+        - Machine Learning for Time Series and Anomaly Detection.
+        - Optimal Transport and its applications.
+    - title: Stochastic Modelling
       items:
-        - Description 1.
-        - Description 2.
+        - Stochastic Differential Equations and statistical inference for SDEs.
+        - Stochastic Calculus and Extreme Value Theory.
+        - Reinforcement Learning.
+
+- title: Teaching, Mentoring and Coaching
+  type: list
+  contents:
+    - Instructed a year-long Abstract Algebra course to college students at SAICE under my math professor's guidance (2023).
+    - Mentored freshmen in Mathematics at SAICE (2022).
+    - Taught 5th-grade students Mathematics, Geography and General Knowledge for over 6 months at SAICE (2022).
+    - Taught Mathematics to students in grades 7 and 10 and corrected their assignments during the pandemic (2020).
+    - Coached volleyball for college students at SAICE (2024).
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, C, C++, R.
+    - title: Libraries and Frameworks
+      items:
+        - NumPy, SciPy, Matplotlib, Pandas, scikit-learn, PyTorch.
+    - title: Computer and Software Skills
+      items:
+        - SQL, OpenMP, MPI, Excel, LaTeX.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Sports:</u> University Volleyball at Université Grenoble Alpes (Excellence B level, 2024–2025); Gymnastics, Athletics, Swimming, Football, Basketball, Hockey, Boxing, Wrestling.
+    - <u>Music:</u> Tabla — learned compositions from various schools (Gharanas), 2012–2021.
+    - <u>Workshop Practice:</u> Building showpieces and armour from metal sheets and rods, and electronic projects including an RC drone (2013–2020).

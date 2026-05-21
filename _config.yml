@@ -3,20 +3,20 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Shubha Sanket
-middle_name: 
+first_name: Shubha
+middle_name: Sanket
 last_name: Samantaray
 email: shubhasanketsamantaray@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal homepage
+  Personal academic homepage of Shubha Sanket Samantaray — Master's student in Mathematics, Vision, Learning (MVA) at ENS Paris-Saclay.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: applied mathematics, machine learning, deep learning, stochastic differential equations, MVA, ENS Paris-Saclay, academic-website
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 📐 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://shubhasanket.github.io/ # the base hostname & protocol for your site
+url: https://shubhasanket.github.io # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -65,8 +65,15 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-# clustrmaps_widget: "<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=BKLPODrXjQfPZLeZBB0OkYJibDPkigEOnpnfUM3rwW8&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>"
-clustrmaps_widget: "<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?d=QFjMvKFipV2htL1ozaO8WCTBBV-Ks8dMp_EDgeuCUzw&cl=ffffff&w=a'></script>"
+# Visitor map widget. To enable, paste your OWN ClustrMaps / MapMyVisitors
+# script between the double quotes below. Get one for free at:
+#   1. Go to https://clustrmaps.com  (same service as https://mapmyvisitors.com)
+#   2. Sign up and add your website URL: https://shubhasanket.github.io
+#   3. Choose the "Map Widget" option, customise colours/size if you like.
+#   4. Copy the script tag they give you and paste it inside the quotes below.
+# Example (do NOT use this exact one — it's just a format reference; you need YOUR OWN hash):
+#   clustrmaps_widget: "<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?d=YOUR_OWN_HASH_HERE&cl=ffffff&w=a'></script>"
+clustrmaps_widget: ""
 
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
@@ -75,7 +82,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: Vibhu04
+github_username: shubhasanket
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
@@ -83,7 +90,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: vibhudalal
+linkedin_username: # TODO: add your LinkedIn handle (the part after linkedin.com/in/)
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -92,7 +99,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: Tu4xqMoAAAAJ&hl # your Google Scholar ID
+scholar_userid: # TODO: add your Google Scholar ID if you have one
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -293,7 +300,7 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 
 scholar:
   last_name: [Samantaray]
-  first_name: [Shubha Sanket]
+  first_name: [Shubha]
 
   style: apa
   locale: en

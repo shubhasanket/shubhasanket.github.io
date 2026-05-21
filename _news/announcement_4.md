@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-31
+date: 2025-07-31
 inline: true
 related_posts: false
 ---
 
-Graduated from SAICE with a BSc in Mathematics and Computer Science
+Finished the M1 in Applied Mathematics at ENSIMAG / Université Grenoble Alpes, ranking 1st out of 22 students.

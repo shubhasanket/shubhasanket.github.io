@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-05-21
+date: 2025-09-15
 inline: true
 related_posts: false
 ---
 
-Joined Neptune Technologies LLC as a Machine Learning Engineer
+Started the M2 *Mathématiques, Vision, Apprentissage* (MVA) at ENS Paris-Saclay / Université Paris-Saclay, supported by the France Excellence Charpak Master Scholarship.
