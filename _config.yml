@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: applied mathematics, machine learning, deep learning, stochastic differential equations, MVA, ENS Paris-Saclay, academic-website
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 📐 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ♾️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://shubhasanket.github.io # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 #   4. Copy the script tag they give you and paste it inside the quotes below.
 # Example (do NOT use this exact one — it's just a format reference; you need YOUR OWN hash):
 #   clustrmaps_widget: "<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?d=YOUR_OWN_HASH_HERE&cl=ffffff&w=a'></script>"
-clustrmaps_widget: ""
+clustrmaps_widget: "<script type='text/javascript' id='mapmyvisitors' src='//mapmyvisitors.com/map.js?d=b9AJLret2Jy-qeJS5lNivXQja5ZOYtCRTEXU4imrFXQ&cl=ffffff&w=a'></script>"
 
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
