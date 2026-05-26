@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded the DataIA International Mobility Scholarship for my upcoming M2 MVA research internship at CAMLab, SAM, D-Math, ETH Zürich.
+Awarded the DataIA Paris-Saclay Institute International Mobility Scholarship for for the MVA research internship at CAMLab, ETH Zürich.
