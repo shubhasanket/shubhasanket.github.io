@@ -3,7 +3,7 @@ layout: page
 title: Bridging the Inference Gap - Consistent Training for Low-Resource Cross-Lingual Intervention
 description: Inference-time cross-lingual intervention for large language models
 img: assets/img/incline.png
-importance: 1
+importance: 3
 category: work
 giscus_comments: false
 ---
@@ -25,4 +25,4 @@ We build on **INCLINE** (Inference-Time Cross-Lingual Intervention), which align
 
 We evaluated on a low-resource translation task using Llama-3-8B-Instruct (quantized for tractable compute), extracting sentence representations from the last token of source and target sentences, and measuring translation quality with BLEU, ChrF++ and AfriCOMET (for African languages) on FLORES devtest data. We found that INCLINE helps even in severe low-resource settings and across scripts (somewhat better for Latin scripts), that LoRA outperforms it but at much higher cost, and that our regularized, consistency-trained objective is more stable — notably succeeding on Sanskrit where the non-regularized variant failed — and improves performance on African languages while matching it elsewhere.
 
-You can find the project on GitHub [here](https://github.com/shubhasanket/REPLACE-WITH-REPO).
+You can find the project on GitHub [here](https://github.com/shubhasanket/Inference-Time-Alignment).
