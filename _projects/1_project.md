@@ -23,4 +23,4 @@ The key observation is that the Feynman-Kac representation expresses the PDE sol
 
 I validated the method on the heat equation and on the **Black-Scholes** equation for pricing European call options, generating data both via the closed-form geometric Brownian motion solution and via Euler-Maruyama discretization. I then extended the fixed-time model to a single network that learns the entire space-time price surface, removing the need to retrain for each maturity. Across experiments the neural solver showed strong agreement with both Monte Carlo simulation and the Crank-Nicolson finite-difference scheme, while offering mesh-free, reusable inference across all time-price pairs.
 
-You can find the project on GitHub [here](https://github.com/shubhasanket/REPLACE-WITH-REPO](https://github.com/shubhasanket/Neural-Network-Based-PDE-Solver-Using-the-Feynman-Kac-Formula).
+You can find the project on GitHub [here](https://github.com/shubhasanket/Neural-Network-Based-PDE-Solver-Using-the-Feynman-Kac-Formula).
