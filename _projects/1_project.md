@@ -1,21 +1,26 @@
 ---
 layout: page
-title: Feynman-Kac Based PDE Solver using Machine Learning
-description: Neural network PDE solver applied to the Black–Scholes equation
-img: assets/img/1.jpg
-importance: 1
+title: Neural Network-Based PDE Solver Using the Feynman-Kac Formula
+description: Mesh-free neural PDE solver applied to Black-Scholes option pricing
+img: assets/img/feynman_kac.png
+importance: 2
 category: work
-related_publications: false
+giscus_comments: false
 ---
 
-<!-- TODO: replace assets/img/1.jpg above with your own project image (place it in assets/img/). -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/feynman_kac.png" title="Neural network vs exact Black-Scholes surface" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The neural network learns the full space-time Black-Scholes price surface (left) and matches the exact solution (right).
+</div>
 
-This project developed a neural network-based partial differential equation (PDE) solver based on the Feynman–Kac formula, which expresses solutions of certain PDEs as expectations over stochastic processes. The solver was applied to the Black–Scholes equation for pricing European options.
+Classical PDE solvers such as finite differences and finite elements are effective in low dimensions but become intractable in high dimensions due to the curse of dimensionality. This project develops a mesh-free alternative built on the **Feynman-Kac formula**, which reformulates certain linear parabolic PDEs as expectations over stochastic processes - turning a deterministic solve into a statistical estimation problem.
 
-To evaluate the approach, I conducted a systematic performance comparison against classical numerical methods — Finite Difference schemes and Monte Carlo simulation — measuring both accuracy and computational efficiency on a range of option-pricing tasks.
+The key observation is that the Feynman-Kac representation expresses the PDE solution as a conditional expectation, which is exactly the minimizer of a mean-squared-error regression problem. I therefore train a neural network to approximate that conditional expectation: simulate trajectories of the underlying SDE, evaluate the terminal payoff to build training targets, and fit the network by minimizing the MSE between its prediction and the (noisy) labels. Despite the label noise, the network learns the conditional mean rather than interpolating the data.
 
-*Period&#58;* February 2025 – May 2025.
+I validated the method on the heat equation and on the **Black-Scholes** equation for pricing European call options, generating data both via the closed-form geometric Brownian motion solution and via Euler-Maruyama discretization. I then extended the fixed-time model to a single network that learns the entire space-time price surface, removing the need to retrain for each maturity. Across experiments the neural solver showed strong agreement with both Monte Carlo simulation and the Crank-Nicolson finite-difference scheme, while offering mesh-free, reusable inference across all time-price pairs.
 
-<!-- TODO: add a link to the project repository or report here, e.g.:
-You can find the code on GitHub [here](https://github.com/shubhasanket/your-repo).
--->
+You can find the project on GitHub [here](https://github.com/shubhasanket/REPLACE-WITH-REPO](https://github.com/shubhasanket/Neural-Network-Based-PDE-Solver-Using-the-Feynman-Kac-Formula).
