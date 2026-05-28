@@ -1,19 +1,26 @@
 ---
 layout: page
 title: Fitting a Stochastic Differential Equation to the Lorenz Trajectory
-description: SDE models approximating the dynamics of the Lorenz system
-img: assets/img/4.jpg
-importance: 4
+description: SDE surrogate models for chaotic Lorenz dynamics
+img: assets/img/lorenz_sde.png
+importance: 3
 category: work
-related_publications: false
+giscus_comments: false
 ---
 
-<!-- TODO: replace assets/img/4.jpg above with your own project image (place it in assets/img/). -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lorenz_sde.png" title="Autoregressive SDE fit to the Lorenz x-component" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An autoregressive SDE fit (blue) compared with the original Lorenz x(t) trajectory (orange).
+</div>
 
-This project (carried out during my CNRS research internship in the AIRSEA team at Laboratoire Jean Kuntzmann) developed stochastic differential equation (SDE) models to approximate the dynamics of the Lorenz system — a classical chaotic dynamical system.
+This project, carried out during my research internship in the AIRSEA team at Laboratoire Jean Kuntzmann (CNRS), develops a systematic methodology for inferring a stochastic differential equation (SDE) that approximates the dynamics of the deterministic, chaotic **Lorenz system** — focusing on its x-component as the observed signal.
 
-I validated model performance by analysing the trade-off between SDE complexity, numerical stability, and fidelity to the original Lorenz trajectory. The work is closely related to my broader interest in statistical inference and calibration methods for stochastic models of complex systems.
+The approach combines numerical simulation via the Euler–Maruyama scheme, parametric forms for the drift and diffusion coefficients, and maximum-likelihood estimation through a joint negative-log-likelihood loss tailored to the discrete-time approximation. I compared three models of increasing complexity: a linear drift with polynomial diffusion; an autoregressive linear drift with exponential diffusion; and an autoregressive linear–quadratic drift with exponential diffusion. To assess fit quality I introduced a simple sign-invariant L2 trajectory distance, complemented by visual comparison of trajectories.
 
-*Period&#58;* May 2025 – July 2025.
+The results highlight a clear trade-off between model complexity and stability. The simplest model is stable but produces noisy trajectories that do not resemble the Lorenz dynamics; the autoregressive model resembles the Lorenz x(t) more closely as the lag order grows, but becomes increasingly unstable and prone to explosive amplitudes; and the most flexible model, while it converges during optimization, diverges at simulation time. Overall the study illustrates both the promise and the difficulty of using SDEs as reduced surrogate models for chaotic deterministic systems.
 
-<!-- TODO: add a link to the project repository or report here. -->
+You can find the project on GitHub [here](https://github.com/shubhasanket/REPLACE-WITH-REPO).
