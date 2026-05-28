@@ -23,4 +23,4 @@ The approach combines numerical simulation via the Euler–Maruyama scheme, para
 
 The results highlight a clear trade-off between model complexity and stability. The simplest model is stable but produces noisy trajectories that do not resemble the Lorenz dynamics; the autoregressive model resembles the Lorenz x(t) more closely as the lag order grows, but becomes increasingly unstable and prone to explosive amplitudes; and the most flexible model, while it converges during optimization, diverges at simulation time. Overall the study illustrates both the promise and the difficulty of using SDEs as reduced surrogate models for chaotic deterministic systems.
 
-You can find the project on GitHub [here](https://github.com/shubhasanket/REPLACE-WITH-REPO).
+You can find the project on GitHub [here](https://github.com/shubhasanket/Fitting-a-Stochastic-Differential-Equation-to-a-Deterministic-Lorenz-Trajectory).
