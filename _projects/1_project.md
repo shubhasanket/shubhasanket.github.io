@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Neural Network-Based PDE Solver Using the Feynman-Kac Formula
-description: Mesh-free neural PDE solver applied to Black-Scholes option pricing
+description: Mesh-free neural PDE solver
 img: assets/img/feynman_kac.png
 importance: 2
 category: work
