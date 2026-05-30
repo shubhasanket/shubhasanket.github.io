@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bridging the Inference Gap: Consistent Training for Low-Resource Cross-Lingual Intervention
+title: Bridging the Inference Gap - Consistent Training for Low-Resource Cross-Lingual Intervention
 description: Inference-time cross-lingual intervention for large language models
 img: assets/img/incline.png
 importance: 3
