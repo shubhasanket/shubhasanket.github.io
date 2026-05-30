@@ -14,10 +14,10 @@ giscus_comments: false
     </div>
 </div>
 <div class="caption">
-    Forecasted (orange) vs. realized (blue) daily volatility on the test split. Joint work with Ruben Cardoso at ENS Paris-Saclay.
+    Forecasted (orange) vs. realized (blue) daily volatility on the test split.
 </div>
 
-This project, carried out jointly with **Ruben Cardoso**, builds deep learning forecasters for next-day financial volatility on the **Oxford–Man Realized Volatility** dataset and compares them against classical econometric baselines. Inputs are lagged realized-volatility estimators (rv5, rv10, bipower variation, median RV, semivariance), daily and overnight log returns, and trade counts; the target is the next-day log realized volatility.
+This project, carried out jointly with **Ruben Cardoso** at ENS Paris-Saclay, builds deep learning forecasters for next-day financial volatility on the **Oxford–Man Realized Volatility** dataset and compares them against classical econometric baselines. Inputs are lagged realized-volatility estimators (rv5, rv10, bipower variation, median RV, semivariance), daily and overnight log returns, and trade counts; the target is the next-day log realized volatility.
 
 A central design choice is a **symbol-aware pipeline**: rolling windows are built per symbol with chronological train/validation/test splits, but a single deep model is trained jointly across all symbols so it can learn shared structure without leaking information across them. We compare HAR-RV and GARCH(1,1) baselines (fit per symbol) against naive deep models (windowed MLP, LSTM) and four TCN-based architectures inspired by *DeepVol*: a vanilla causal-convolution TCN, a Gated TCN, a TCN with temporal attention pooling, and a hybrid causal-Conv1d → GRU → attention model. Performance is measured with MSE, the QLIKE loss, and directional accuracy.
 
