@@ -15,7 +15,7 @@ giscus_comments: false
 </div>
 <div class="caption">
     Project poster: consistent training for inference-time cross-lingual intervention.
-    
+</div>
 
 This project, carried out at ENS Paris-Saclay jointly with **Kshitij Ambilduke**, studies how to reduce the cross-lingual performance gap of large language models *without* retraining them. Language models perform well overall but remain heavily English-centric, with large gaps on low-resource languages; full fine-tuning or retraining to close those gaps is expensive.
 
