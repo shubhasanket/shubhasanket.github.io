@@ -14,10 +14,10 @@ giscus_comments: false
     </div>
 </div>
 <div class="caption">
-    Learned LaBo class–concept weight matrix on IEMOCAP after column-wise softmax. Rows are emotion classes; columns are language-generated acoustic-emotional concepts. Joint work with Kshitij Ambilduke at ENS Paris-Saclay.
+    LaBo pipeline for interpretable image classification, where LLM-generated class concepts are selected, embedded, and used as a concept bottleneck for prediction.
 </div>
 
-This project, carried out at ENS Paris-Saclay jointly with **Kshitij Ambilduke** as part of the Multimodal Explainable AI course, studies whether language-guided concept bottlenecks can produce *interpretable-by-design* speech emotion classifiers without giving up too much accuracy. Highly accurate emotion models are usually opaque, while interpretable models are often dismissed as too restrictive - and post-hoc explanations need not faithfully reflect the underlying reasoning.
+This project, carried out at ENS Paris-Saclay jointly with **Kshitij Ambilduke**, studies whether language-guided concept bottlenecks can produce *interpretable-by-design* speech emotion classifiers without giving up too much accuracy. Highly accurate emotion models are usually opaque, while interpretable models are often dismissed as too restrictive and post-hoc explanations need not faithfully reflect the underlying reasoning.
 
 We build on **LaBo** (*Language in a Bottle*), which uses a large language model to generate a candidate set of natural-language concepts per class, scores their presence in an input via a frozen vision-language model, and predicts the label from those concept activations through a lightweight linear classifier with a language prior on its weights. Concepts are selected from the candidate pool by maximizing a submodular objective that balances class-discriminability against semantic coverage, giving a small, diverse, label-free bottleneck per class.
 
