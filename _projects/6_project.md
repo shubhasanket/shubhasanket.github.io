@@ -14,10 +14,10 @@ giscus_comments: false
     </div>
 </div>
 <div class="caption">
-    State trajectory heatmaps for a representative rollout of the synchronous voter model: the ground-truth ABM (left) against learned Logistic Regression, MLP, and GNN surrogates. Joint work, equal contribution, with Vibhu Dalal at ENS Paris-Saclay.
+    State trajectory heatmaps for a representative rollout of the synchronous voter model: the ground-truth ABM (left) against learned Logistic Regression, MLP, and GNN surrogates.
 </div>
 
-This project, carried out at ENS Paris-Saclay jointly and on equal terms with **Vibhu Dalal**, asks a simple but subtle question: if a neural network can predict the next step of an interacting system accurately, has it really learned the dynamics? Many agent-based models (ABMs) generate rich macroscopic behaviour - clustering, consensus, phase transitions - from simple local rules, and a natural machine learning question is whether learned models can serve as faithful surrogates for those rules.
+This project, carried out at ENS Paris-Saclay jointly with **Vibhu Dalal**, asks a simple but subtle question: if a neural network can predict the next step of an interacting system accurately, has it really learned the dynamics? Many agent-based models (ABMs) generate rich macroscopic behaviour - clustering, consensus, phase transitions - from simple local rules, and a natural machine learning question is whether learned models can serve as faithful surrogates for those rules.
 
 We study this in a controlled setting using the **synchronous voter model** on an Erdős-Rényi graph. At each time step every agent copies a randomly chosen neighbour's binary opinion; the system is stochastic and eventually reaches an absorbing consensus state. We train three surrogate models - Logistic Regression, an MLP, and a graph neural network (GNN) - to predict next-step probabilities from the current configuration, and then probe them at progressively harder levels.
 
